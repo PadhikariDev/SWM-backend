@@ -14,7 +14,7 @@ const app = express();
 //middlewares
 app.use(cookieParser());
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://swm-frontend-neon.vercel.app",
     credentials: true,
 }));
 app.use(express.json());
